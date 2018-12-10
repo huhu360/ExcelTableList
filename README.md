@@ -2,7 +2,7 @@
 类似excel展示数据列表
 类似效果图：
 
-
+![Image text](https://raw.githubusercontent.com/huhu360/img-folder/master/ExcelList%E6%95%88%E6%9E%9C.2018-10-24%2016_52_48.gif)
 
 前段时间需要一个类似的功能，但是找到的第三方展示效果都不尽如人意，找了个时间自己写了一下。
 
