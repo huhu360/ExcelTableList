@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77736E4721741AE000D4F275 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77736E4621741AE000D4F275 /* AppDelegate.m */; };
+		77736E4A21741AE000D4F275 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77736E4921741AE000D4F275 /* ViewController.m */; };
+		77736E4D21741AE000D4F275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77736E4B21741AE000D4F275 /* Main.storyboard */; };
+		77736E4F21741AE100D4F275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77736E4E21741AE100D4F275 /* Assets.xcassets */; };
+		77736E5221741AE100D4F275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77736E5021741AE100D4F275 /* LaunchScreen.storyboard */; };
+		77736E5521741AE100D4F275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77736E5421741AE100D4F275 /* main.m */; };
+		77736E5E21741EDF00D4F275 /* ExcelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77736E5D21741EDF00D4F275 /* ExcelView.m */; };
+		77736E6221741FFA00D4F275 /* ClassifyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77736E6121741FFA00D4F275 /* ClassifyView.m */; };
+		77736E652174205B00D4F275 /* ExcelLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77736E642174205B00D4F275 /* ExcelLeftView.m */; };
+		77736E68217420BC00D4F275 /* ExcelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 77736E67217420BC00D4F275 /* ExcelCell.m */; };
+		77736E6B2174211900D4F275 /* SubtypeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77736E6A2174211900D4F275 /* SubtypeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77736E4221741AE000D4F275 /* ExcelTableList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcelTableList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77736E4521741AE000D4F275 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77736E4621741AE000D4F275 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77736E4821741AE000D4F275 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77736E4921741AE000D4F275 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77736E4C21741AE000D4F275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77736E4E21741AE100D4F275 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77736E5121741AE100D4F275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77736E5321741AE100D4F275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77736E5421741AE100D4F275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77736E5C21741EDF00D4F275 /* ExcelView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelView.h; sourceTree = "<group>"; };
+		77736E5D21741EDF00D4F275 /* ExcelView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelView.m; sourceTree = "<group>"; };
+		77736E5F21741F8000D4F275 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		77736E6021741FFA00D4F275 /* ClassifyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassifyView.h; sourceTree = "<group>"; };
+		77736E6121741FFA00D4F275 /* ClassifyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassifyView.m; sourceTree = "<group>"; };
+		77736E632174205B00D4F275 /* ExcelLeftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelLeftView.h; sourceTree = "<group>"; };
+		77736E642174205B00D4F275 /* ExcelLeftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelLeftView.m; sourceTree = "<group>"; };
+		77736E66217420BC00D4F275 /* ExcelCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExcelCell.h; sourceTree = "<group>"; };
+		77736E67217420BC00D4F275 /* ExcelCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExcelCell.m; sourceTree = "<group>"; };
+		77736E692174211900D4F275 /* SubtypeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubtypeView.h; sourceTree = "<group>"; };
+		77736E6A2174211900D4F275 /* SubtypeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubtypeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77736E3F21741AE000D4F275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77736E3921741AE000D4F275 = {
+			isa = PBXGroup;
+			children = (
+				77736E4421741AE000D4F275 /* ExcelTableList */,
+				77736E4321741AE000D4F275 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77736E4321741AE000D4F275 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77736E4221741AE000D4F275 /* ExcelTableList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77736E4421741AE000D4F275 /* ExcelTableList */ = {
+			isa = PBXGroup;
+			children = (
+				77736E5B21741B0200D4F275 /* ExcelTable */,
+				77736E4521741AE000D4F275 /* AppDelegate.h */,
+				77736E4621741AE000D4F275 /* AppDelegate.m */,
+				77736E4821741AE000D4F275 /* ViewController.h */,
+				77736E4921741AE000D4F275 /* ViewController.m */,
+				77736E4B21741AE000D4F275 /* Main.storyboard */,
+				77736E4E21741AE100D4F275 /* Assets.xcassets */,
+				77736E5021741AE100D4F275 /* LaunchScreen.storyboard */,
+				77736E5321741AE100D4F275 /* Info.plist */,
+				77736E5421741AE100D4F275 /* main.m */,
+			);
+			path = ExcelTableList;
+			sourceTree = "<group>";
+		};
+		77736E5B21741B0200D4F275 /* ExcelTable */ = {
+			isa = PBXGroup;
+			children = (
+				77736E5C21741EDF00D4F275 /* ExcelView.h */,
+				77736E5D21741EDF00D4F275 /* ExcelView.m */,
+				77736E5F21741F8000D4F275 /* Constant.h */,
+				77736E6021741FFA00D4F275 /* ClassifyView.h */,
+				77736E6121741FFA00D4F275 /* ClassifyView.m */,
+				77736E632174205B00D4F275 /* ExcelLeftView.h */,
+				77736E642174205B00D4F275 /* ExcelLeftView.m */,
+				77736E66217420BC00D4F275 /* ExcelCell.h */,
+				77736E67217420BC00D4F275 /* ExcelCell.m */,
+				77736E692174211900D4F275 /* SubtypeView.h */,
+				77736E6A2174211900D4F275 /* SubtypeView.m */,
+			);
+			path = ExcelTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77736E4121741AE000D4F275 /* ExcelTableList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77736E5821741AE100D4F275 /* Build configuration list for PBXNativeTarget "ExcelTableList" */;
+			buildPhases = (
+				77736E3E21741AE000D4F275 /* Sources */,
+				77736E3F21741AE000D4F275 /* Frameworks */,
+				77736E4021741AE000D4F275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExcelTableList;
+			productName = ExcelTableList;
+			productReference = 77736E4221741AE000D4F275 /* ExcelTableList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77736E3A21741AE000D4F275 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = ZWM;
+				TargetAttributes = {
+					77736E4121741AE000D4F275 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 77736E3D21741AE000D4F275 /* Build configuration list for PBXProject "ExcelTableList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77736E3921741AE000D4F275;
+			productRefGroup = 77736E4321741AE000D4F275 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77736E4121741AE000D4F275 /* ExcelTableList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77736E4021741AE000D4F275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77736E5221741AE100D4F275 /* LaunchScreen.storyboard in Resources */,
+				77736E4F21741AE100D4F275 /* Assets.xcassets in Resources */,
+				77736E4D21741AE000D4F275 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77736E3E21741AE000D4F275 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77736E4A21741AE000D4F275 /* ViewController.m in Sources */,
+				77736E68217420BC00D4F275 /* ExcelCell.m in Sources */,
+				77736E6221741FFA00D4F275 /* ClassifyView.m in Sources */,
+				77736E5521741AE100D4F275 /* main.m in Sources */,
+				77736E5E21741EDF00D4F275 /* ExcelView.m in Sources */,
+				77736E4721741AE000D4F275 /* AppDelegate.m in Sources */,
+				77736E652174205B00D4F275 /* ExcelLeftView.m in Sources */,
+				77736E6B2174211900D4F275 /* SubtypeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77736E4B21741AE000D4F275 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77736E4C21741AE000D4F275 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77736E5021741AE100D4F275 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77736E5121741AE100D4F275 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77736E5621741AE100D4F275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77736E5721741AE100D4F275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77736E5921741AE100D4F275 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MV5M37HLK6;
+				INFOPLIST_FILE = ExcelTableList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwm.ExcelTableList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		77736E5A21741AE100D4F275 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MV5M37HLK6;
+				INFOPLIST_FILE = ExcelTableList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zwm.ExcelTableList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77736E3D21741AE000D4F275 /* Build configuration list for PBXProject "ExcelTableList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77736E5621741AE100D4F275 /* Debug */,
+				77736E5721741AE100D4F275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77736E5821741AE100D4F275 /* Build configuration list for PBXNativeTarget "ExcelTableList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77736E5921741AE100D4F275 /* Debug */,
+				77736E5A21741AE100D4F275 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77736E3A21741AE000D4F275 /* Project object */;
+}
